@@ -1,35 +1,13 @@
-heart_rate = 50
-
-too_low = heart_rate <= 60
-too_high = heart_rate >= 100
-
-print("Heart rate low:")
-print(too_low)
-
-print("Heart rate high:")
-print(too_high)
+name = input('Enter Your Name: ').title()
+wage = float(input("Your Hourly Wage: "))
+dog = input('Enter Pets Name: ').title()
 print("")
-print("Mortgage Information:")
+print("")
 
-apr = 2
-home_value = 240000
-terms = 30 * 12
-hoa = 200
-taxes = 3 * (200000/100)
-monthly_payment = home_value / terms + hoa
+salary = wage * (float(40*52))
+print(f"Based on your wage, you make ${salary} a year! Congrats!")
 print("")
-print("Home Cost")
-print(home_value)
-print("")
-print("APR")
-print(apr)
-print("")
-print("Monthly Payment")
-print(monthly_payment)
-print("")
-print("Yearly Taxes")
-print(taxes)
-
+print(f"This means you can afford to buy {dog} lots of treats! and clean her POOP...")
 approved = home_value < 250000
 denied = home_value > 300000
 print("")
